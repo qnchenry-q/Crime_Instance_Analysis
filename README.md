@@ -1,5 +1,4 @@
-## Crime Instance Analysis
-# Overview
+# Crime Instance Analysis
 # EDA
 # Clustering
 # Random Forest
