@@ -1,9 +1,4 @@
-# Crime Instance Analysis
-  1. 
-  2.
-  3.
-  4.
-  5.
+## Crime Instance Analysis
 # Overview
 # EDA
 # Clustering
