@@ -9,6 +9,7 @@ The fields can be categorized three ways. Some fields describe the location, oth
 
 I ended up creating a categorical field derived from the description of the crime. Essentially, a crime was labeled 'severe' or 'non-severe'. This binary classifier was the target for my machine learning models. 
 # Clustering
+I knew from previous experience that cities are split into districts to aid police allocation. Since a large part of the data was pertaining to location, I created my own clusters using K-means. To decide how mamy clusters to use I first used a silhoutte score, which suggested I divide the city into North and South. However, I made the call to have the clusters be more granular, in sacrifice of time. I decided on 9 clusters to mirror the number of divisions the Austin police department uses. The algorithm was able to cluster the data seamlessly.
 # Random Forest
 # Takeaways
 # Future Work
